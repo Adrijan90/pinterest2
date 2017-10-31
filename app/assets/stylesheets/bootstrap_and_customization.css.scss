@@ -1,6 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+$font-family: 'Libre Baskerville', serif;
+
+$navbar-height: 50px;
 $body-bg: #34495e;
 $navbar-default-link-color: white;
 $navbar-default-bg: #2c3e50;
 $jumbotron-bg: #ecf0f1;
+
+.center {
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+li:hover {
+  color: #c0392b;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
 
 @import 'bootstrap';
